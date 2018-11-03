@@ -1,0 +1,16 @@
+{
+    "_COMMENT-token": "Enter your token, which will be taken if you launch your bot on a linux server.",
+    "token": "token1",
+    "_COMMENT-tokenDev": "Enter your development token, which will be taken if you launch your bot on Windows.",
+    "tokenDev": "token2",
+    "_COMMENT-botowner": "Enter all of your user ids, this will be usefull if you create botowner only commands.",
+    "botowner": [
+        "userid",
+        "userid"
+    ],
+    "_COMMENT-prefix": "This will be your bot prefix, if you want your commands like '!play' simply enter '!', if you want something like '!bot play' enter '!bot ' with whitespace at the end, otherwise it will ends in '!botplay'.",
+    "prefix": "!bot ",
+    "_COMMENT-defaultLang": "This option will set your default language if no other language is given.",
+    "defaultLang": "en",
+    "_COMMENT": "You can add more options to this settings file as you need to."
+}
