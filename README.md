@@ -148,6 +148,6 @@ In combination with `node-json-db` you can save the prefered language of each gu
 ## Housekeeping
 I will give you some tipps to keep your repository clean. 
 - Keep everything ordered, functions into `./functions/`, events into `./events/` and commands into `./commands/`, ...
-- Don't create files directly unter `./` unless it's really necessary. 
+- Don't create files directly under `./` unless it's really necessary. 
 - Don't repeat yourself, if you create a function which will be execute on two places (event and command), create them under `./functions/` and require them where you need them.
 - Uninstall unused packages to keep your `node_modules` folder tiny. 
