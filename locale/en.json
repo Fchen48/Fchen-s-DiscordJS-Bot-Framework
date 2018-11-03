@@ -1,0 +1,19 @@
+{
+    "botName": "MyBot",
+    "botStarted": "MyBot started!",
+    "botReconnected": "MyBot reconnected!",
+    "success": "**Success**",
+    "successColor": "0x00FF00",
+    "info": "**Information**",
+    "infoColor": "0x10A2F0",
+    "warn": "**Warning**",
+    "warnColor": "0xF1C40F",
+    "error": "**Error**",
+    "errorColor": "0xFF0000",
+
+    "helpTitle": "**Helppage**",
+    "helpDesc": "Here you will find all available commands the bot reacts to.\n",
+
+    "commandHelp": "help",
+    "commandHelpDesc": "Will show this helppage again."
+}

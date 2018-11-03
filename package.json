@@ -1,0 +1,31 @@
+{
+  "name": "fchen-s-discordjs-bot-framework",
+  "version": "1.0.0",
+  "description": "This is my personal Framework, which I created with influences from \"An Idiot's Guide\", the DiscordJS community and many other Discord programming communities. \r You can use it as a jump-start and build your DiscordBot faster instead of creating the wheel from scratch.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fchen48/Fchen-s-DiscordJS-Bot-Framework.git"
+  },
+  "keywords": [
+    "discordjs",
+    "discordbot",
+    "nodejs"
+  ],
+  "author": "Fchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fchen48/Fchen-s-DiscordJS-Bot-Framework/issues"
+  },
+  "homepage": "https://github.com/Fchen48/Fchen-s-DiscordJS-Bot-Framework#readme",
+  "dependencies": {
+    "discord.js": "github:hydrabolt/discord.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "nodemon": "^1.18.5"
+  }
+}
