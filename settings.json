@@ -1,6 +1,8 @@
 {
-    "token": "token1",
-    "tokenDev": "token2",
+    "token": {
+        "production": "",
+        "development": "",
+    },
     "botowner": [
         "userid",
         "userid"

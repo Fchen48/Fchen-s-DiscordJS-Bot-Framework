@@ -2,9 +2,9 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const settings = require("./settings.json");
 
-let token = settings.token;
+let token = settings.token.production;
 if(process.env.OS === "Windows_NT") {
-    token = settings.tokenDev;
+    token = settings.token.development;
 }
 
 if(!token) process.exit(1);
