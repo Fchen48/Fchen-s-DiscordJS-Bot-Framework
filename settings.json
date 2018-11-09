@@ -1,8 +1,9 @@
 {
-    "_COMMENT-token": "Enter your token, which will be taken if you launch your bot on a linux server.",
-    "token": "token1",
-    "_COMMENT-tokenDev": "Enter your development token, which will be taken if you launch your bot on Windows.",
-    "tokenDev": "token2",
+    "_COMMENT-token": "Enter your token, production will be taken on linux server, development on Windows",
+    "token": {
+        "production": "",
+        "development": ""
+    },
     "_COMMENT-botowner": "Enter all of your user ids, this will be usefull if you create botowner only commands.",
     "botowner": [
         "userid",
